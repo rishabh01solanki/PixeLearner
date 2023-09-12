@@ -21,10 +21,10 @@ This iOS application uses on-device machine learning to make predictions based o
 
 1. Clone this repository:
 ```bash
-2. git clone <your-github-repo-url>
-3. Open the Xcode project in Xcode.
-4. Connect your iOS device.
-5. Build and run the project to deploy the application on your device.
+ git clone <your-github-repo-url>```
+2. Open the Xcode project in Xcode.
+3. Connect your iOS device.
+4. Build and run the project to deploy the application on your device.
 
 ### Usage
 - Capture or upload an image using the app interface.
