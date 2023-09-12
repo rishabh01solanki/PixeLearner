@@ -22,7 +22,7 @@ This iOS application uses on-device machine learning to make predictions based o
 1. Clone this repository:
 ```
 bash
-git clone <your-github-repo-url>
+git clone https://github.com/rishabh01solanki/PixeLearner.git
 
 ```
 2. Open the Xcode project in Xcode.
