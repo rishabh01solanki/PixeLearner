@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10F0C872ABA2F9700F4B1A5 /* BERT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C862ABA2F9700F4B1A5 /* BERT.swift */; };
+		D10F0C892ABA2FA200F4B1A5 /* BERTInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C882ABA2FA200F4B1A5 /* BERTInput.swift */; };
+		D10F0C8B2ABA2FAA00F4B1A5 /* BERTOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C8A2ABA2FAA00F4B1A5 /* BERTOutput.swift */; };
+		D10F0C8D2ABA2FAF00F4B1A5 /* BERTVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C8C2ABA2FAF00F4B1A5 /* BERTVocabulary.swift */; };
+		D10F0C8F2ABA2FB800F4B1A5 /* TokenizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C8E2ABA2FB800F4B1A5 /* TokenizedString.swift */; };
+		D10F0C912ABA2FC200F4B1A5 /* bert-base-uncased-vocab.txt in Resources */ = {isa = PBXBuildFile; fileRef = D10F0C902ABA2FC200F4B1A5 /* bert-base-uncased-vocab.txt */; };
+		D10F0C932ABA2FDB00F4B1A5 /* BERTQAFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C922ABA2FDB00F4B1A5 /* BERTQAFP16.mlmodel */; };
+		D10F0C982ABA444C00F4B1A5 /* VisualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F0C972ABA444C00F4B1A5 /* VisualEffects.swift */; };
+		D10F0C992ABA4B9D00F4B1A5 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197CD5A2AB9F7040051BC99 /* Speech.framework */; };
+		D16589A72ABD47FF000CEF7A /* cnn_base.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D16589A62ABD47FF000CEF7A /* cnn_base.mlmodel */; };
+		D197CD5D2AB9F7E10051BC99 /* SpeechToTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197CD5C2AB9F7E10051BC99 /* SpeechToTextManager.swift */; };
+		D1CC99232ABB871800607819 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC99222ABB871800607819 /* CameraViewController.swift */; };
+		D1D8B7862AB250830074A3CB /* PixeLearnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B7852AB250830074A3CB /* PixeLearnerApp.swift */; };
+		D1D8B7882AB250830074A3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B7872AB250830074A3CB /* ContentView.swift */; };
+		D1D8B78A2AB250840074A3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D8B7892AB250840074A3CB /* Assets.xcassets */; };
+		D1D8B78D2AB250840074A3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D8B78C2AB250840074A3CB /* Preview Assets.xcassets */; };
+		D1D8B7962AB251400074A3CB /* ModelInference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B7952AB251400074A3CB /* ModelInference.swift */; };
+		D1D8B7982AB252E30074A3CB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B7972AB252E30074A3CB /* ImagePicker.swift */; };
+		D1D8B79A2AB253120074A3CB /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B7992AB253120074A3CB /* ImagePickerCoordinator.swift */; };
+		D1D8B79C2AB2536B0074A3CB /* crop_resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B79B2AB2536B0074A3CB /* crop_resize.swift */; };
+		D1D8B79E2AB254F30074A3CB /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8B79D2AB254F30074A3CB /* ImageUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D10F0C862ABA2F9700F4B1A5 /* BERT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERT.swift; sourceTree = "<group>"; };
+		D10F0C882ABA2FA200F4B1A5 /* BERTInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERTInput.swift; sourceTree = "<group>"; };
+		D10F0C8A2ABA2FAA00F4B1A5 /* BERTOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERTOutput.swift; sourceTree = "<group>"; };
+		D10F0C8C2ABA2FAF00F4B1A5 /* BERTVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERTVocabulary.swift; sourceTree = "<group>"; };
+		D10F0C8E2ABA2FB800F4B1A5 /* TokenizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenizedString.swift; sourceTree = "<group>"; };
+		D10F0C902ABA2FC200F4B1A5 /* bert-base-uncased-vocab.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bert-base-uncased-vocab.txt"; sourceTree = "<group>"; };
+		D10F0C922ABA2FDB00F4B1A5 /* BERTQAFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BERTQAFP16.mlmodel; sourceTree = "<group>"; };
+		D10F0C972ABA444C00F4B1A5 /* VisualEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffects.swift; sourceTree = "<group>"; };
+		D16589A62ABD47FF000CEF7A /* cnn_base.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnn_base.mlmodel; path = "../../core models_python/cnn_base.mlmodel"; sourceTree = "<group>"; };
+		D197CD5A2AB9F7040051BC99 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		D197CD5C2AB9F7E10051BC99 /* SpeechToTextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextManager.swift; sourceTree = "<group>"; };
+		D1CC99222ABB871800607819 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D1D8B7822AB250830074A3CB /* PixeLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixeLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D8B7852AB250830074A3CB /* PixeLearnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixeLearnerApp.swift; sourceTree = "<group>"; };
+		D1D8B7872AB250830074A3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1D8B7892AB250840074A3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1D8B78C2AB250840074A3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1D8B7952AB251400074A3CB /* ModelInference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelInference.swift; sourceTree = "<group>"; };
+		D1D8B7972AB252E30074A3CB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D1D8B7992AB253120074A3CB /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		D1D8B79B2AB2536B0074A3CB /* crop_resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crop_resize.swift; sourceTree = "<group>"; };
+		D1D8B79D2AB254F30074A3CB /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D8B77F2AB250830074A3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F0C992ABA4B9D00F4B1A5 /* Speech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10F0C942ABA321000F4B1A5 /* BERT */ = {
+			isa = PBXGroup;
+			children = (
+				D10F0C862ABA2F9700F4B1A5 /* BERT.swift */,
+				D10F0C922ABA2FDB00F4B1A5 /* BERTQAFP16.mlmodel */,
+				D10F0C902ABA2FC200F4B1A5 /* bert-base-uncased-vocab.txt */,
+				D10F0C8E2ABA2FB800F4B1A5 /* TokenizedString.swift */,
+				D10F0C8C2ABA2FAF00F4B1A5 /* BERTVocabulary.swift */,
+				D10F0C882ABA2FA200F4B1A5 /* BERTInput.swift */,
+				D10F0C8A2ABA2FAA00F4B1A5 /* BERTOutput.swift */,
+			);
+			path = BERT;
+			sourceTree = "<group>";
+		};
+		D10F0C952ABA324900F4B1A5 /* Image Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8B7972AB252E30074A3CB /* ImagePicker.swift */,
+				D1D8B79B2AB2536B0074A3CB /* crop_resize.swift */,
+				D1D8B7992AB253120074A3CB /* ImagePickerCoordinator.swift */,
+				D1D8B79D2AB254F30074A3CB /* ImageUtils.swift */,
+			);
+			path = "Image Utilites";
+			sourceTree = "<group>";
+		};
+		D10F0C962ABA329000F4B1A5 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				D197CD5C2AB9F7E10051BC99 /* SpeechToTextManager.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		D197CD592AB9F7040051BC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D197CD5A2AB9F7040051BC99 /* Speech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A130CA2ABB78A4008D772E /* CameraFeed */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC99222ABB871800607819 /* CameraViewController.swift */,
+			);
+			path = CameraFeed;
+			sourceTree = "<group>";
+		};
+		D1D8B7792AB250830074A3CB = {
+			isa = PBXGroup;
+			children = (
+				D1D8B7842AB250830074A3CB /* PixeLearner */,
+				D1D8B7832AB250830074A3CB /* Products */,
+				D197CD592AB9F7040051BC99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D8B7832AB250830074A3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8B7822AB250830074A3CB /* PixeLearner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D8B7842AB250830074A3CB /* PixeLearner */ = {
+			isa = PBXGroup;
+			children = (
+				D10F0C962ABA329000F4B1A5 /* Speech */,
+				D10F0C952ABA324900F4B1A5 /* Image Utilites */,
+				D10F0C942ABA321000F4B1A5 /* BERT */,
+				D1A130CA2ABB78A4008D772E /* CameraFeed */,
+				D16589A62ABD47FF000CEF7A /* cnn_base.mlmodel */,
+				D1D8B7872AB250830074A3CB /* ContentView.swift */,
+				D1D8B7852AB250830074A3CB /* PixeLearnerApp.swift */,
+				D10F0C972ABA444C00F4B1A5 /* VisualEffects.swift */,
+				D1D8B7952AB251400074A3CB /* ModelInference.swift */,
+				D1D8B7892AB250840074A3CB /* Assets.xcassets */,
+				D1D8B78B2AB250840074A3CB /* Preview Content */,
+			);
+			path = PixeLearner;
+			sourceTree = "<group>";
+		};
+		D1D8B78B2AB250840074A3CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8B78C2AB250840074A3CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D8B7812AB250830074A3CB /* PixeLearner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D8B7902AB250840074A3CB /* Build configuration list for PBXNativeTarget "PixeLearner" */;
+			buildPhases = (
+				D1D8B77E2AB250830074A3CB /* Sources */,
+				D1D8B77F2AB250830074A3CB /* Frameworks */,
+				D1D8B7802AB250830074A3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixeLearner;
+			productName = PixeLearner;
+			productReference = D1D8B7822AB250830074A3CB /* PixeLearner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D8B77A2AB250830074A3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1D8B7812AB250830074A3CB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D1D8B77D2AB250830074A3CB /* Build configuration list for PBXProject "pix2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1D8B7792AB250830074A3CB;
+			productRefGroup = D1D8B7832AB250830074A3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D8B7812AB250830074A3CB /* PixeLearner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D8B7802AB250830074A3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D8B78D2AB250840074A3CB /* Preview Assets.xcassets in Resources */,
+				D1D8B78A2AB250840074A3CB /* Assets.xcassets in Resources */,
+				D10F0C912ABA2FC200F4B1A5 /* bert-base-uncased-vocab.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D8B77E2AB250830074A3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197CD5D2AB9F7E10051BC99 /* SpeechToTextManager.swift in Sources */,
+				D16589A72ABD47FF000CEF7A /* cnn_base.mlmodel in Sources */,
+				D10F0C8D2ABA2FAF00F4B1A5 /* BERTVocabulary.swift in Sources */,
+				D10F0C982ABA444C00F4B1A5 /* VisualEffects.swift in Sources */,
+				D1D8B7882AB250830074A3CB /* ContentView.swift in Sources */,
+				D1D8B7862AB250830074A3CB /* PixeLearnerApp.swift in Sources */,
+				D10F0C8F2ABA2FB800F4B1A5 /* TokenizedString.swift in Sources */,
+				D10F0C932ABA2FDB00F4B1A5 /* BERTQAFP16.mlmodel in Sources */,
+				D10F0C892ABA2FA200F4B1A5 /* BERTInput.swift in Sources */,
+				D1D8B79A2AB253120074A3CB /* ImagePickerCoordinator.swift in Sources */,
+				D1D8B7982AB252E30074A3CB /* ImagePicker.swift in Sources */,
+				D10F0C8B2ABA2FAA00F4B1A5 /* BERTOutput.swift in Sources */,
+				D1D8B7962AB251400074A3CB /* ModelInference.swift in Sources */,
+				D1D8B79C2AB2536B0074A3CB /* crop_resize.swift in Sources */,
+				D10F0C872ABA2F9700F4B1A5 /* BERT.swift in Sources */,
+				D1D8B79E2AB254F30074A3CB /* ImageUtils.swift in Sources */,
+				D1CC99232ABB871800607819 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1D8B78E2AB250840074A3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1D8B78F2AB250840074A3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1D8B7912AB250840074A3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PixeLearner/Preview Content\"";
+				DEVELOPMENT_TEAM = 76856ZU55G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PixeLearner2.0;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need to use the Camera. Thanks!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "need to use mic";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "I need to access your recording. Thanks";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "machine-learning.pix2.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D1D8B7922AB250840074A3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PixeLearner/Preview Content\"";
+				DEVELOPMENT_TEAM = 76856ZU55G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PixeLearner2.0;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need to use the Camera. Thanks!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "need to use mic";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "I need to access your recording. Thanks";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "machine-learning.pix2.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D8B77D2AB250830074A3CB /* Build configuration list for PBXProject "pix2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D8B78E2AB250840074A3CB /* Debug */,
+				D1D8B78F2AB250840074A3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D8B7902AB250840074A3CB /* Build configuration list for PBXNativeTarget "PixeLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D8B7912AB250840074A3CB /* Debug */,
+				D1D8B7922AB250840074A3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1D8B77A2AB250830074A3CB /* Project object */;
+}
