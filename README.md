@@ -2,8 +2,7 @@
 
 This iOS application uses on-device machine learning to make predictions based on images. The primary advantage is privacy - all predictions and updates are done locally on the device. It's initially trained on a set of images, but the model can learn and adapt to user-specific data using updatable layers.
 
-
-![Recogning the person](PixeLearner.gif)
+<img src="PixeLearner.gif" alt="Recogning the person" width="300"/>
 
 
 ## Key Features
