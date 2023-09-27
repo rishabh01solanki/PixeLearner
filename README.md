@@ -89,4 +89,5 @@ This project is open source, under MIT license.
 
 ## Acknowledgments
 MobileNetV2 creators for the base model architecture.
+BERT creators for text processing.
 CoreML tools for enabling on-device machine learning.
