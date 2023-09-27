@@ -57,9 +57,6 @@
     - A model update class takes in training data and a completion handler.
     - After updating, the updated model is saved and the context is refreshed to refer to the updated model.
 
-### Final Words
-
-PixeLearn stands at the intersection of vision-based machine learning and natural language processing, providing a seamless experience to users. As the application recognizes and learns more people, it becomes more adept, paving the way for numerous real-world applications.
 
 ### Future Scope:
 With the foundation in place, future versions can potentially integrate more complex ML models, offer cloud-based model updates, and perhaps even extend into AR/VR spaces.
